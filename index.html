@@ -1,15 +1,94 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>홍성환님 산수연</title>
-    </head>
-    <body>
-        <h1>Hello World</h1>
-        <p>I'm hosted with GitHub Pages.</p>
-        <div style="position: relative; width: 100%; height: 0; padding-top: 140.0000%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">
-            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://www.canva.com/design/DAGfWPSua6s/-fJg65pLTqtyV_So1mMAcg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-            </iframe>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">    
+    <title>홍성환님 산수연</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            height: 100vh;
+            background: url('images/4.png') repeat center center/cover;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 2%;
+        }
+        .image-box {
+            width: 100%;
+            max-width: 1024px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .image-box img {
+            width: 100%;
+            height: auto;
+            max-height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .dongle-regular {
+            font-family: "Dongle", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .map-box {
+            width: 100%;
+            max-width: 1024px;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            margin-bottom: 2%;
+            background-color: rgb(219, 219, 219);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            font-size: 2em;
+            font-family: "Dongle", serif;
+            font-weight: 400;
+            font-style: normal;            
+        }
+
+        @media (max-width: 768px) {
+            .image-box {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-box">
+            <img src="images/1.png" alt="이미지 1">
         </div>
-        DK Hong 님의 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGfWPSua6s&#x2F;-fJg65pLTqtyV_So1mMAcg&#x2F;view?utm_content=DAGfWPSua6s&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">홍성환님 산수연</a>
-    </body>
+        <div class="image-box">
+            <img src="images/2.png" alt="이미지 2">
+        </div>
+        <div class="image-box">
+            <img src="images/3.png" alt="이미지 3">
+        </div>
+        <div class="map-box">
+            <a href="https://naver.me/G8s9iWcE">다이닝원 네이버 지도</a>
+        </div>
+    </div>
+</body>
 </html>
